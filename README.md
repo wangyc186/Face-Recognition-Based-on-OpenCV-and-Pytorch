@@ -1,11 +1,11 @@
-# Face-Recognition-Based-on-OpenCV-and-Pytorch
+# Face_Recognition_Based_on_OpenCV_and_Pytorch
 Use Pytorch Deep Learning  
 Partial reference https://blog.csdn.net/qq_44707179/article/details/117135230  
 
 You have to install OpenCV and Pytorch first,based on your OS!  
 
 OpenCV  
-'''sh
+```sh
 import cv2
 CADES_PATH = 'opencv-4.5.2/data/haarcascades_cuda/haarcascade_frontalface_al
 def face_detect(img_path) :
@@ -21,4 +21,7 @@ cv2. rectangle(img_bgr, (x, y), (x +w, y + h), color, 2)
 cv2. imwrite('detect.png', img_bgr)
 if
 _name_ == '_main_': face_detect( 'eg.jpg')
-'''
+```
+  ```sh
+  npm install npm@latest -g
+  ```
