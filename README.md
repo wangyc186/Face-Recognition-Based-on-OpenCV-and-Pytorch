@@ -4,7 +4,7 @@ Partial reference https://blog.csdn.net/qq_44707179/article/details/117135230
 
 You have to install OpenCV and Pytorch first,based on your OS!  
 
-#Config OpenCV  
+#Configure OpenCV  
 ```sh
 import cv2
 CADES_PATH = 'opencv-4.5.2/data/haarcascades_cuda/haarcascade_frontalface_al
