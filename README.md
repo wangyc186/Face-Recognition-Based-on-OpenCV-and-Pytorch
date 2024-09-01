@@ -26,7 +26,7 @@ if__name__ == '_main_':
 #Create labels for each image
 ```sh
 def Myloader(path) :
-  return cv2. imread (path)
+    return cv2. imread (path)
 ```
 #Transform images
 ```sh
